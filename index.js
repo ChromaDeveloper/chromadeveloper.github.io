@@ -13,7 +13,6 @@ function initaite() {
     scene.background = new THREE.Color(0x9fc5e8);
     camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
     camera.position.set(0, 0, 150);
-    var geometry = new THREE.SphereGeometry(80, 10, 10);
     var material = new THREE.MeshBasicMaterial({
         color: 0x9fc5e8,
         wireframe: true,
