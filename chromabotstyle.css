@@ -27,7 +27,7 @@ a {
 }
 
 .title .title-chroma:nth-of-type(1) {
-    color: white;
+    color: black;
   }
 
 .loader::after {
@@ -139,7 +139,7 @@ a {
 
 ::-webkit-scrollbar {
     width: 7px;
-    background-color: #24292f;
+    background-color: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -151,14 +151,14 @@ i {
 }
 
 body {
-    background-color: #1b1f24;
+    background-color: #ffffff;
     overflow-x: hidden;
 }
 
 .container {
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #1e212446 0%, #1b1f246e 20%);
+    background: linear-gradient(to bottom, #1e212446 0%, #ffffff6e 20%);
 
 }
 
@@ -179,14 +179,14 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding: 2rem;
-    background:  	#282b30;
+    background:  	#e7e7e7;
 
 }
 
 .nav li {
     margin-left: 2rem;
     font-size: 1.4rem;
-    color: white;
+    color: rgb(56, 56, 56);
     font-family: "Roboto";
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -255,8 +255,8 @@ api.fonts.coollabs.io
     position: absolute;
     font-size: 20rem;
     font-family: "Wallpoet";
-    text-shadow: 0px 0px 100px #000;
-    color: #ffffff;
+    text-shadow: 0px 0px 100px rgb(255, 255, 255);
+    color: #000000;
 
 }
 
@@ -302,7 +302,7 @@ api.fonts.coollabs.io
     width: 100%;
     max-width: 350px;
     border-radius: 50%;
-    border: 20px solid #24292f;
+    border: 20px solid #ffffff;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.486), 0px 40px 100px #9872df1f;
 
 } */
@@ -311,7 +311,7 @@ api.fonts.coollabs.io
 
 
 .title {
-    color: white;
+    color: black;
     font-size: 3rem;
     font-family: "Roboto";
 }
@@ -343,8 +343,8 @@ span {
 
 .btn {
     padding: 0.5rem 1rem;
-    background-color: #24292f;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     /*display: inline-block;
     */
     text-align: center;
@@ -362,8 +362,8 @@ span {
 
 .btn:hover {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.144), 0px 20px 80px #9872df59;
-    background-color: #ffffff;
-    color: #24292f;
+    background-color: #1e2124;
+    color: #ffffff;
 }
 
 
@@ -387,11 +387,11 @@ span {
     width: 4px;
     height: 100%;
     border-radius: 3px;
-    background: linear-gradient(#1b1f24, #1e2124);
+    background: linear-gradient(#000000, #000000);
 }
 
 .line2 {
-    background: linear-gradient(#1e2124, #1b1f24);
+    background: linear-gradient(#000000, #000000);
 
 }
 .about-me {
@@ -420,16 +420,16 @@ span {
     font-size: 4rem;
     font-family: "Roboto";
     margin-bottom: 2rem;
-    background: #ffffff;
-    background: -webkit-linear-gradient(to right, #ffffff 0%, #ffffff 100%);
-    background: -moz-linear-gradient(to right, #ffffff 0%, #ffffff 100%);
-    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000 0%, #000000 100%);
+    background: -moz-linear-gradient(to right, #000000 0%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #000000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .about-para {
-    color: white;
+    color: black;
     font-family: "Roboto";
     max-width: 600px;
     widtH: 90%;
@@ -437,7 +437,7 @@ span {
 }
 
 .h3 {
-    color: #ffffff;
+    color: #000000;
     margin-top: 2rem;
     font-family: "Roboto";
     font-size: 1.2rem;
@@ -461,7 +461,7 @@ input {
     width: 50px;
     z-index: -1;
     height: 5px;
-    background-color: #24292f;
+    background-color: #ffffff;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.137);
 
 } */
@@ -495,7 +495,7 @@ input {
     margin: auto;
     font-size: 3rem;
     transition: all 0.2s;
-    color: #1e2124;
+    color: #000000;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -518,7 +518,7 @@ input {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.137);
     box-sizing: border-box;
     margin-top: 2rem;
-    background-color: #24292f;
+    background-color: #ffffff;
     border-radius: 10px;
 
     position: relative;
@@ -537,7 +537,7 @@ input {
     width: 50px;
     z-index: -1;
     height: 5px;
-    background-color: #24292f;
+    background-color: #ffffff;
 } */
 
 .box1 {}
@@ -583,9 +583,9 @@ input {
 .footer {
     width: 100vw;
     text-align: center;
-    background-color: #24292f;
+    background-color: #ffffff;
     padding: 2rem;
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 900px) {
@@ -724,7 +724,7 @@ input {
 
     .nav {
         justify-content: left;
-        background-color: #1b1f24;
+        background-color: #ffffff;
     }
 
     .nav li {
@@ -775,7 +775,7 @@ input {
         left: -20px;
         width: 20px;
         height: 5px;
-        background-color: #24292f;
+        background-color: #ffffff;
         transform: translateY(-50%);
         z-index: -1;
         content: "";
