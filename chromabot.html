@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chroma</title>
+    <title>ChromaBot [._.]</title>
     <meta meta name="viewport" content="width=device-width, user-scalable=no" />
 
     <link rel="stylesheet" href="./chromabotstyle.css">
@@ -32,10 +31,10 @@
         <div class="main" id="home">
             <div class="header">
                 <div class="header-info">
-                    <h1 class="title">ChromaBot<span class="title-chroma"></span></h1>
+                    <h1 class="title"> ChromaBot<span class="title-chroma"> [._.]</span></h1>
                     <div class="buttons">
                         <a target="_blank" href="https://github.com/ChromaDeveloper">
-                            <div class="btn btn2"><i class="fa-brands fa-github"></i> Creator</div>
+                            <div class="btn btn2"><i class="fa-brands fa-github-alt"></i> Creator</div>
                         </a>
                         <a target="_blank" href="https://discord.gg/xC9Fkc9yE6">
                             <div class="btn btn1"><i class="fa-brands fa-discord"></i> Discord Server</div>
@@ -68,15 +67,23 @@
                             <h3 class="h3">Basically...</h3>
                             <ul class="features">
                                 <li class="feature">
-                                    ChromaBot is an open source Discord bot that is built using Python, Discord.py, and discord.ext.</li> 
-                                <li class="feature">   
-                                    It is designed to help with moderation tasks on Discord servers, such as kicking, warning, banning, and purging messages.</li>
-                                <li class="feature"> 
-                                    In addition, it has many other useful commands that you can discover by using the c!help command.</li> 
-                                <li class="feature"> 
-                                    We highly recommend giving ChromaBot a try on your Discord server.</li>
-                                <li class="feature">
+                                    ChromaBot is an open source Discord bot that is built using Python, Discord.py, and discord.ext. It is designed to help with moderation tasks on Discord servers, such as kicking, warning, banning, and purging messages.
+                                    In addition, it has many other useful commands that you can discover by using the c!help command. We highly recommend giving ChromaBot a try on your Discord server.
                                     Also do not forget that it's in the BETA stages. The stable release will be there soon.</li>
+                            </ul>
+                        <h1 class="h1">Is it stable ?</h1>
+                        <div class="stable">
+                            </ul>
+                            <h3 class="h3">Well...</h3>
+                            <li class="feature">
+                            Not stable yet, this bot is in the BETA stages.</li>
+                            </ul>
+                        <h1 class="h1">Is this open source ?</h1>
+                        <div class="stable">
+                            </ul>
+                            <h3 class="h3">Yes !</h3>
+                            <li class="feature">
+                            This bot is open source, just go back to the top and click the source code button.</li>
                             </ul>
                         </div>
     
@@ -85,105 +92,6 @@
             </div>
         </div>
         <div class="footer">Made by Chroma</div>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-        </script>
-        <script src="./typed.js"></script>
-        <script src="./anime.min.js"></script>
-        <script>
-            AOS.init();
-
-
-
-            var animation = anime({
-                targets: ".square",
-                keyframes: [
-                    { rotateZ: 360 }
-                ],
-
-                // duration: '20000',
-                autoplay: false,
-            })
-
-
-            anime({
-                targets: ".square",
-                borderRadius: [
-                    { value: 50, easing: 'easeOutSine', duration: 800 },
-                    { value: 1, easing: 'easeInOutQuad', duration: 400 }
-                ],
-                scale: [
-                    { value: .1, easing: 'easeOutSine', duration: 700 },
-                    { value: 1, easing: 'easeInOutQuad', duration: 300 }
-                ],
-                delay: anime.stagger(100, { grid: [10, 10], from: 'first' }),
-                loop: true,
-            })
-
-            window.onscroll = function (e) {
-                animation.seek(window.pageYOffset * 0.2);
-                console.log(window.pageYOffset)
-
-                navAnimation.seek(window.pageYOffset * 0.22)
-            }
-
-
-            function copy() {
-                if (window.innerWidth > 900) {
-                    const userid = document.getElementById("id")
-                    navigator.clipboard.writeText("Chroma#2444");
-                    document.execCommand("copy");
-                    userid.innerHTML = "ID Copied";
-                    setTimeout(function () {
-                        const userid = document.getElementById("id")
-                        userid.innerHTML = `<i class="fa-brands fa-discord"></i> Chroma#2444`;
-                        console.log("hi")
-                    }, 2000);
-                }
-                else {
-                    var copyText = document.getElementById('myInput')
-                    copyText.select();
-                    document.execCommand('copy')
-                    const userid1 = document.getElementById("id")
-
-                    console.log('Copied Text')
-                    userid1.innerHTML = "ID Copied";
-                    setTimeout(function () {
-                        userid1.innerHTML = `<i class="fa-brands fa-discord"></i> Chroma#2444`;
-                        console.log("hi")
-                    }, 1500);
-                }
-            }
-
-
-
-            function copy2() {
-                if (window.innerWidth > 900) {
-                    const userid = document.getElementById("id2")
-                    navigator.clipboard.writeText("Chroma#2444");
-                    document.execCommand("copy");
-                    userid.innerHTML = "ID Copied";
-                    setTimeout(function () {
-                        const userid = document.getElementById("id2")
-                        userid.innerHTML = `<i class="fa-brands fa-discord"></i> Chroma#2444`;
-                        console.log("hi")
-                    }, 2000);
-                }
-                else {
-                    var copyText = document.getElementById('myInput')
-                    copyText.select();
-                    document.execCommand('copy')
-                    const userid1 = document.getElementById("id2")
-
-                    console.log('Copied Text')
-                    userid1.innerHTML = "ID Copied";
-                    setTimeout(function () {
-                        userid1.innerHTML = "Chroma#2444";
-                        console.log("hi")
-                    }, 1500);
-                }
-            }
-
-        </script>
         <script src="./index.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
