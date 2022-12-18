@@ -465,19 +465,6 @@ input {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.137);
 
 } */
-
-.feature {
-    color: white;
-    font-size: 1.1rem;
-    padding: 0.75rem;
-    background-color: #30363d;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    font-family: "Roboto";
-
-    transition: all 0.2s;
-}
-
 .tech-rack {
     display: flex;
     gap: 1rem;
